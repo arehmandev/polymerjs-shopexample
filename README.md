@@ -12,6 +12,4 @@ Now browse to localhost:8080 to check it all.
 To shutdown:
 ```
 docker kill polymerjs
-
-
-
+```
