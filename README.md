@@ -13,7 +13,7 @@ To shutdown:
 ```
 CTRL + C
 
-or if you're running docker-compose in deteached (-d)
+or if you're running docker-compose in detached mode (-d)
 
 docker kill polymerjs
 ```
