@@ -16,6 +16,4 @@ CTRL + C
 or if you're running docker-compose in deteached (-d)
 
 docker kill polymerjs
-
-
-
+```
