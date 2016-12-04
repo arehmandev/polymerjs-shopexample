@@ -1,5 +1,5 @@
-polymerjs2:
-  image: polymerjs2
+polymerjs:
+  build: .
   ports:
     - "8080:8080"
   volumes:

@@ -3,7 +3,7 @@
 To run:
 ```
 1) Clone this repo
-2) docker build --no-cache -t polymerjs2 .
+2) docker-compose build --no-cache
 3) docker-compose up
 ```
 
