@@ -7,4 +7,3 @@ npm install -g polymer-cli
 npm install -g bower
 cd $PWD/shop
 bower install --allow-root
-polymer serve --hostname 0.0.0.0 --port 80
