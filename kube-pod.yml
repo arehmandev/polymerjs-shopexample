@@ -7,7 +7,7 @@ metadata:
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: polymerjs-shop
+  name: polyshop
   namespace: polyshop
   labels:
     app: polymerjs-shop
@@ -27,7 +27,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: polymerjs-shop
+  name: polyshop
   labels:
     app: polymerjs-shop
   namespace: polyshop
@@ -38,4 +38,4 @@ spec:
     targetPort: 8080
     nodePort: 30001
   selector:
-    app: polyshop
+    app: polymerjs-shop
