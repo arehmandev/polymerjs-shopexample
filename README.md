@@ -14,7 +14,7 @@ CTRL + C
 
 or if you're running docker-compose in detached mode (-d)
 
-docker kill polymerjs
+docker-compose kill 
 ```
 
 To run on kubernetes:
